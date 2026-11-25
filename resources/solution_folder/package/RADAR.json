@@ -1,7 +1,7 @@
 {
   "docVersion": "1.0.0",
   "resource": {
-    "name": "ChurnShield",
+    "name": "RADAR",
     "kind": "package",
     "apiVersion": "orchestrator.uipath.com/v1",
     "projectKey": "1c60f65d-46b3-436d-9a62-d18ab014bd0e",
@@ -13,7 +13,7 @@
       }
     ],
     "spec": {
-      "name": "ChurnShield"
+      "name": "RADAR"
     },
     "locks": [],
     "key": "2b268909-07e0-4019-a9bb-31bda1b817da",

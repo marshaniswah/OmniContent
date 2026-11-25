@@ -1,7 +1,7 @@
 {
   "id": "f10cb1af-e962-41ad-aba8-40d250ac2453",
   "version": "1.9",
-  "name": "ChurnShield",
+  "name": "RADAR",
   "nodes": [
     {
       "id": "start",
@@ -2644,9 +2644,9 @@
           },
           "configuration": "=jsonString:{\"essentialConfiguration\":{\"customFieldsRequestDetails\":null,\"executionType\":null,\"operation\":\"create\",\"packageVersion\":\"1.0.0\",\"connectorVersion\":null,\"unifiedTypesCompatible\":true,\"savedFilterTrees\":null,\"objectName\":\"SendEmail\",\"httpMethod\":\"POST\",\"instanceParameters\":{\"connectorKey\":\"uipath-google-gmail\",\"objectName\":\"SendEmail\",\"httpMethod\":\"POST\",\"activityType\":\"Curated\",\"version\":\"1.0.0\",\"supportsStreaming\":false,\"subType\":\"standard\"},\"path\":\"/SendEmail\"}}",
           "uiPathActivityTypeId": "f2a5320d-a0d1-3aec-af8f-5b16ad9665a0",
-          "connectionId": "4fdab537-5416-45d8-843d-47e6eecc798d",
-          "connectionResourceId": "4fdab537-5416-45d8-843d-47e6eecc798d",
-          "connectionFolderKey": "279e4d63-e3cb-44df-b7e5-26a13c6bc9d1",
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "connectionResourceId": "00000000-0000-0000-0000-000000000000",
+          "connectionFolderKey": "00000000-0000-0000-0000-000000000000",
           "bodyParameters": {
             "Body": "=js:$vars.recheckPolicy.output.emailHtml",
             "Subject": "=js:\"Penawaran Khusus & Tindak Lanjut Layanan - \" + $vars.eachCustomer.currentItem.customerName + \" (\" + $vars.eachCustomer.currentItem.customerCode + \")\"",
@@ -3066,9 +3066,9 @@
           },
           "configuration": "=jsonString:{\"essentialConfiguration\":{\"customFieldsRequestDetails\":null,\"executionType\":null,\"operation\":\"create\",\"packageVersion\":\"1.0.0\",\"connectorVersion\":null,\"unifiedTypesCompatible\":true,\"savedFilterTrees\":null,\"objectName\":\"SendEmail\",\"httpMethod\":\"POST\",\"instanceParameters\":{\"connectorKey\":\"uipath-google-gmail\",\"objectName\":\"SendEmail\",\"httpMethod\":\"POST\",\"activityType\":\"Curated\",\"version\":\"1.0.0\",\"supportsStreaming\":false,\"subType\":\"standard\"},\"path\":\"/SendEmail\"}}",
           "uiPathActivityTypeId": "f2a5320d-a0d1-3aec-af8f-5b16ad9665a0",
-          "connectionId": "4fdab537-5416-45d8-843d-47e6eecc798d",
-          "connectionResourceId": "4fdab537-5416-45d8-843d-47e6eecc798d",
-          "connectionFolderKey": "279e4d63-e3cb-44df-b7e5-26a13c6bc9d1",
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "connectionResourceId": "00000000-0000-0000-0000-000000000000",
+          "connectionFolderKey": "00000000-0000-0000-0000-000000000000",
           "bodyParameters": {
             "Body": "=js:$vars.recheckPolicy.output.exceptionEmailHtml",
             "Subject": "=js:\"Penawaran Khusus Prioritas - \" + $vars.eachCustomer.currentItem.customerName + \" (\" + $vars.eachCustomer.currentItem.customerCode + \")\"",
@@ -3499,9 +3499,9 @@
           },
           "configuration": "=jsonString:{\"essentialConfiguration\":{\"customFieldsRequestDetails\":null,\"executionType\":null,\"operation\":\"create\",\"packageVersion\":\"1.0.0\",\"connectorVersion\":null,\"unifiedTypesCompatible\":true,\"savedFilterTrees\":null,\"objectName\":\"SendEmail\",\"httpMethod\":\"POST\",\"instanceParameters\":{\"connectorKey\":\"uipath-google-gmail\",\"objectName\":\"SendEmail\",\"httpMethod\":\"POST\",\"activityType\":\"Curated\",\"version\":\"1.0.0\",\"supportsStreaming\":false,\"subType\":\"standard\"},\"path\":\"/SendEmail\"}}",
           "uiPathActivityTypeId": "f2a5320d-a0d1-3aec-af8f-5b16ad9665a0",
-          "connectionId": "4fdab537-5416-45d8-843d-47e6eecc798d",
-          "connectionResourceId": "4fdab537-5416-45d8-843d-47e6eecc798d",
-          "connectionFolderKey": "279e4d63-e3cb-44df-b7e5-26a13c6bc9d1",
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "connectionResourceId": "00000000-0000-0000-0000-000000000000",
+          "connectionFolderKey": "00000000-0000-0000-0000-000000000000",
           "bodyParameters": {
             "Body": "=js:$vars.buildReport.output.reportHtml",
             "Subject": "=js:\"[RADAR] Laporan Eksekutif Run \" + $vars.newRun.output",
@@ -8959,8 +8959,8 @@
       "name": "uipath-google-gmail connection",
       "type": "string",
       "resource": "connection",
-      "resourceKey": "4fdab537-5416-45d8-843d-47e6eecc798d",
-      "default": "4fdab537-5416-45d8-843d-47e6eecc798d",
+      "resourceKey": "00000000-0000-0000-0000-000000000000",
+      "default": "00000000-0000-0000-0000-000000000000",
       "propertyAttribute": "ConnectionId"
     },
     {
@@ -8968,8 +8968,8 @@
       "name": "FolderKey",
       "type": "string",
       "resource": "connection",
-      "resourceKey": "4fdab537-5416-45d8-843d-47e6eecc798d",
-      "default": "279e4d63-e3cb-44df-b7e5-26a13c6bc9d1",
+      "resourceKey": "00000000-0000-0000-0000-000000000000",
+      "default": "00000000-0000-0000-0000-000000000000",
       "propertyAttribute": "FolderKey"
     }
   ],

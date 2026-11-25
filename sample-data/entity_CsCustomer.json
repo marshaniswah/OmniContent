@@ -1,4 +1,4 @@
-{"displayName":"CsCustomer","description":"ChurnShield synthetic broadband customers with 30-day network KPIs","fields":[
+{"displayName":"CsCustomer","description":"RADAR synthetic broadband customers with 30-day network KPIs","fields":[
 {"name":"CustomerCode","type":"STRING","isRequired":true},
 {"name":"CustomerName","type":"STRING"},
 {"name":"ServicePlan","type":"STRING"},

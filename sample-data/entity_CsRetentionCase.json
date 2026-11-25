@@ -1,4 +1,4 @@
-{"displayName":"CsRetentionCase","description":"ChurnShield retention cases created by each run","fields":[
+{"displayName":"CsRetentionCase","description":"RADAR retention cases created by each run","fields":[
 {"name":"RunId","type":"STRING"},
 {"name":"CustomerCode","type":"STRING"},
 {"name":"CustomerName","type":"STRING"},

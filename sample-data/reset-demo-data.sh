@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Reset ChurnShield demo data (synthetic only).
+# Reset RADAR demo data (synthetic only).
 # - regenerates tickets relative to the current time, so some are past their SLA again
 # - deletes all CsTicket and CsRetentionCase records, then re-imports tickets
 # Customers are not touched. Requires: uip login, python.
@@ -15,7 +15,7 @@ python "$HERE/generate_data.py" "$HERE"
 
 for E in "$CASES" "$TICKET"; do
   IDS=$(all_ids "$E")
-  if [ -n "$IDS" ]; then uip df records delete "$E" $IDS --yes --reason "ChurnShield demo reset" --output json >/dev/null; fi
+  if [ -n "$IDS" ]; then uip df records delete "$E" $IDS --yes --reason "RADAR demo reset" --output json >/dev/null; fi
 done
 uip df records import "$TICKET" --file "$HERE/tickets.csv" --output json
 echo "Demo data reset."

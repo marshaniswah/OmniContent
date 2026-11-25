@@ -4,7 +4,7 @@
 
 **Run G** `RUN-20261122-025712`, default inputs:
 
-> ChurnShield RUN-20261122-025712: 150 pelanggan dinilai (rules, keluhan dibaca AI), 21 berisiko tinggi dengan revenue at risk Rp 150.600.000/tahun. 5 kasus baru diproses: 5 tiket dieskalasi, 4 penawaran disetujui (Rp 45.600.000/tahun ditawari retensi), 1 tanpa tindakan. Peringatan dini: 4 pelanggan berskor rendah menyebut niat berhenti di keluhannya.
+> RADAR RUN-20261122-025712: 150 pelanggan dinilai (rules, keluhan dibaca AI), 21 berisiko tinggi dengan revenue at risk Rp 150.600.000/tahun. 5 kasus baru diproses: 5 tiket dieskalasi, 4 penawaran disetujui (Rp 45.600.000/tahun ditawari retensi), 1 tanpa tindakan. Peringatan dini: 4 pelanggan berskor rendah menyebut niat berhenti di keluhannya.
 
 "Ditawari retensi" is the annual revenue of customers with an approved offer. Whether they stay is not tracked yet.
 
@@ -37,11 +37,11 @@ The complaint texts were written by us for the demo, so this illustrates the beh
 | CUST-0022 | Offer fields set to Diskon 50%, 6 months | "diskon 50% melebihi batas 30%; durasi 6 bulan melebihi batas 3 bulan" | Approve Exception | Approved (Exception) / Follow-up Ready, PolicyStatus `Exception Approved` |
 | CUST-0100 | Offer fields set to Diskon 20%, 3 months, but the AI message promising "1 bulan gratis" kept | "pesan menawarkan bulan gratis di luar penawaran" | Reject Offer | Rejected by Supervisor / Closed - Offer Rejected |
 
-> ChurnShield RUN-20261122-025204: ... 3 kasus baru diproses: 3 tiket dieskalasi, 2 penawaran disetujui (Rp 22.800.000/tahun ditawari retensi, 1 lewat pengecualian supervisor), 1 ditolak supervisor, 0 tanpa tindakan. ...
+> RADAR RUN-20261122-025204: ... 3 kasus baru diproses: 3 tiket dieskalasi, 2 penawaran disetujui (Rp 22.800.000/tahun ditawari retensi, 1 lewat pengecualian supervisor), 1 ditolak supervisor, 0 tanpa tindakan. ...
 
 **Run F** `RUN-20261122-025500`, `topN = 1`, built with a deliberately invalid model id to test failure handling:
 
-> ChurnShield RUN-20261122-025500: 150 pelanggan dinilai (rules, keluhan dibaca kata kunci), ... 1 kasus baru diproses: 1 tiket dieskalasi, 0 penawaran disetujui (Rp 0/tahun ditawari retensi), 1 perlu ditangani manual karena AI gagal, 0 tanpa tindakan. 2 pelanggan berisiko dilewati karena sudah punya kasus atau masih masa jeda kontak. Catatan: Analisis keluhan AI gagal; sinyal keluhan memakai daftar kata kunci.
+> RADAR RUN-20261122-025500: 150 pelanggan dinilai (rules, keluhan dibaca kata kunci), ... 1 kasus baru diproses: 1 tiket dieskalasi, 0 penawaran disetujui (Rp 0/tahun ditawari retensi), 1 perlu ditangani manual karena AI gagal, 0 tanpa tindakan. 2 pelanggan berisiko dilewati karena sudah punya kasus atau masih masa jeda kontak. Catatan: Analisis keluhan AI gagal; sinyal keluhan memakai daftar kata kunci.
 
 Case CUST-0072: status `Needs Manual Review`, decision `AI Failed`, note "Rekomendasi AI gagal: Failure in the Orchestrator Job. Tangani manual." Run status Completed.
 

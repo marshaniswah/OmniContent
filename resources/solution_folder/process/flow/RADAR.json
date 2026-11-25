@@ -1,7 +1,7 @@
 {
   "docVersion": "1.0.0",
   "resource": {
-    "name": "ChurnShield",
+    "name": "RADAR",
     "kind": "process",
     "type": "flow",
     "apiVersion": "orchestrator.uipath.com/v1",
@@ -9,7 +9,7 @@
     "dependencies": [
       {
         "kind": "package",
-        "name": "ChurnShield"
+        "name": "RADAR"
       }
     ],
     "runtimeDependencies": [],
@@ -21,7 +21,7 @@
     "spec": {
       "runtimeProfile": "Standard",
       "type": "Flow",
-      "name": "ChurnShield",
+      "name": "RADAR",
       "package": {
         "key": "2b268909-07e0-4019-a9bb-31bda1b817da"
       },

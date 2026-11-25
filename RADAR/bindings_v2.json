@@ -3,11 +3,11 @@
   "resources": [
     {
       "resource": "connection",
-      "key": "4fdab537-5416-45d8-843d-47e6eecc798d",
-      "id": "connection4fdab537-5416-45d8-843d-47e6eecc798d",
+      "key": "00000000-0000-0000-0000-000000000000",
+      "id": "connection00000000-0000-0000-0000-000000000000",
       "value": {
         "ConnectionId": {
-          "defaultValue": "4fdab537-5416-45d8-843d-47e6eecc798d",
+          "defaultValue": "00000000-0000-0000-0000-000000000000",
           "isExpression": false,
           "displayName": "uipath-google-gmail connection"
         }

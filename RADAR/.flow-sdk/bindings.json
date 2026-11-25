@@ -5,16 +5,16 @@
       "id": "gmail",
       "name": "gmail",
       "resource": "Connection",
-      "resourceKey": "4fdab537-5416-45d8-843d-47e6eecc798d",
-      "default": "4fdab537-5416-45d8-843d-47e6eecc798d",
+      "resourceKey": "00000000-0000-0000-0000-000000000000",
+      "default": "00000000-0000-0000-0000-000000000000",
       "propertyAttribute": "ConnectionId"
     },
     {
       "id": "shared",
       "name": "shared",
       "resource": "Connection",
-      "resourceKey": "279e4d63-e3cb-44df-b7e5-26a13c6bc9d1",
-      "default": "279e4d63-e3cb-44df-b7e5-26a13c6bc9d1",
+      "resourceKey": "00000000-0000-0000-0000-000000000000",
+      "default": "00000000-0000-0000-0000-000000000000",
       "propertyAttribute": "FolderKey"
     }
   ]

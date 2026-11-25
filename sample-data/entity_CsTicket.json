@@ -1,4 +1,4 @@
-{"displayName":"CsTicket","description":"ChurnShield synthetic network trouble tickets","fields":[
+{"displayName":"CsTicket","description":"RADAR synthetic network trouble tickets","fields":[
 {"name":"TicketCode","type":"STRING","isRequired":true},
 {"name":"CustomerCode","type":"STRING"},
 {"name":"Category","type":"STRING"},

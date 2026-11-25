@@ -1,5 +1,5 @@
 /**
- * ChurnShield Telecom — churn prevention automation for fixed broadband (PRD/URD v1.0)
+ * RADAR — churn prevention automation for fixed broadband (PRD/URD v1.0)
  *
  * daily schedule / manual run
  *   -> read customers || read open tickets || read existing cases (Data Fabric, parallel)
@@ -114,7 +114,7 @@ const POLICY_FN = `
 
 export default flow("f10cb1af-e962-41ad-aba8-40d250ac2453")
   .schemaVersion("1.9")
-  .name("ChurnShield")
+  .name("RADAR")
   // Configuration: manual runs may override; the daily schedule uses the defaults.
   .var("cfgThreshold", types.number, 0.6)
   .var("cfgTopN", types.number, 5)

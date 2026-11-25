@@ -1,0 +1,21 @@
+# Local working media, raw recordings, submission archives, and video generator projects
+_local_assets/
+submission/
+userProfile/
+*.mp4
+*.m4a
+*.gif
+*.hf-transaction-*
+
+# Credentials, secrets, and personal UiPath Integration Service connections
+.env
+.env.*
+resources/solution_folder/connection/
+
+# Build & runtime caches
+node_modules/
+__pycache__/
+*.pyc
+.hyperframes/
+.DS_Store
+Thumbs.db

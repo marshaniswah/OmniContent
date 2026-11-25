@@ -1,10 +1,10 @@
 # PRODUCT REQUIREMENTS DOCUMENT (PRD)
-## ChurnShield Telecom
+## RADAR
 **Human-in-the-Lead Churn Prevention Automation for Fixed Broadband Providers**
 
 | Document Information | Details |
 |---|---|
-| Product Name | ChurnShield Telecom |
+| Product Name | RADAR |
 | Document Type | Product Requirements Document (PRD) |
 | Version | 1.0 |
 | Status | Initial Draft |
@@ -18,9 +18,9 @@
 
 ### 1.1 Product Description
 
-ChurnShield Telecom is a churn prevention automation for internet service providers. It brings customer, network performance and trouble-ticket data together, scores each customer's churn risk, prioritizes the customers whose loss would hurt revenue most, and drives the follow-up work: escalating overdue network tickets, preparing a retention offer and message, getting human approval, and recording the outcome.
+RADAR is a churn prevention automation for internet service providers. It brings customer, network performance and trouble-ticket data together, scores each customer's churn risk, prioritizes the customers whose loss would hurt revenue most, and drives the follow-up work: escalating overdue network tickets, preparing a retention offer and message, getting human approval, and recording the outcome.
 
-UiPath is the orchestration core. It ingests the data, runs the risk scoring step, calls the AI agent, opens approval tasks for people, escalates tickets, and produces the run report. The scoring step is a replaceable slot: ChurnShield ships with an explainable rule-based score and can call a provider's own machine learning model through a defined API contract.
+UiPath is the orchestration core. It ingests the data, runs the risk scoring step, calls the AI agent, opens approval tasks for people, escalates tickets, and produces the run report. The scoring step is a replaceable slot: RADAR ships with an explainable rule-based score and can call a provider's own machine learning model through a defined API contract.
 
 ### 1.2 Problem Statement
 
@@ -40,7 +40,7 @@ As a result:
 
 ### 1.3 Proposed Solution
 
-ChurnShield runs as a scheduled (daily) or on-demand automation that:
+RADAR runs as a scheduled (daily) or on-demand automation that:
 
 1. Ingests customer, network KPI and open ticket data.
 2. Builds per-customer features (outages, packet loss, latency, complaints, overdue tickets, contract months left).
@@ -60,7 +60,7 @@ To help broadband providers act on churn signals before customers leave, by turn
 
 **Detect risk early. Fix the network issue first. Follow up with the right offer. Keep humans in control.**
 
-ChurnShield closes the loop between network operations and customer retention: a network problem that threatens a valuable customer is escalated, and the customer is followed up with an approved retention action.
+RADAR closes the loop between network operations and customer retention: a network problem that threatens a valuable customer is escalated, and the customer is followed up with an approved retention action.
 
 ---
 
@@ -162,11 +162,11 @@ Baseline and target values will be set through prototype testing with synthetic 
 
 ### 4.3 Out of Scope for MVP
 
-- Training or hosting a machine learning model inside ChurnShield.
+- Training or hosting a machine learning model inside RADAR.
 - Use of real customer data (the prototype uses synthetic data only).
 - Automatic application of discounts in the billing system.
 - Contacting customers without human approval.
-- Real-time network monitoring; ChurnShield consumes aggregated KPIs.
+- Real-time network monitoring; RADAR consumes aggregated KPIs.
 
 ---
 
@@ -434,6 +434,6 @@ The MVP is successful when:
 
 ## 12. Future Product Direction
 
-After the MVP, ChurnShield can grow into a retention operations layer for broadband providers: direct ticketing, CRM and billing integration, multichannel follow-ups, outcome tracking, model feedback loops, and budget-aware offer policies, while keeping retention decisions under human control.
+After the MVP, RADAR can grow into a retention operations layer for broadband providers: direct ticketing, CRM and billing integration, multichannel follow-ups, outcome tracking, model feedback loops, and budget-aware offer policies, while keeping retention decisions under human control.
 
-**Product Positioning:** ChurnShield is not a churn model. It is the automation that turns churn signals, from any model or rule, into escalations, approved retention actions and a traceable record.
+**Product Positioning:** RADAR is not a churn model. It is the automation that turns churn signals, from any model or rule, into escalations, approved retention actions and a traceable record.

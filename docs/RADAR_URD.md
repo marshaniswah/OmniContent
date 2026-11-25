@@ -1,10 +1,10 @@
 # USER REQUIREMENTS DOCUMENT (URD)
-## ChurnShield Telecom
+## RADAR
 **Human-in-the-Lead Churn Prevention Automation for Fixed Broadband Providers**
 
 | Document Information | Details |
 |---|---|
-| Product Name | ChurnShield Telecom |
+| Product Name | RADAR |
 | Document Type | User Requirements Document (URD) |
 | Version | 1.0 |
 | Status | Initial Draft |
@@ -18,7 +18,7 @@
 
 ### 1.1 Purpose
 
-This document defines what the users of ChurnShield need: their roles, the behavior they expect, usage scenarios, and acceptance criteria. It complements the ChurnShield PRD.
+This document defines what the users of RADAR need: their roles, the behavior they expect, usage scenarios, and acceptance criteria. It complements the RADAR PRD.
 
 ### 1.2 Intended Audience
 
@@ -231,7 +231,7 @@ The retention officer is the decision-maker for customer contact and offers.
 
 ### UR-09: Use Our Own Churn Model
 
-**User Requirement:** As an administrator, I want to connect our own churn model so that ChurnShield uses our best prediction.
+**User Requirement:** As an administrator, I want to connect our own churn model so that RADAR uses our best prediction.
 
 **Expected System Behavior:**
 1. The administrator sets the scoring mode to external and provides the model URL.
@@ -285,7 +285,7 @@ The retention officer is the decision-maker for customer contact and offers.
 
 ## 6. User Journey
 
-**Step 1 — Run starts.** The daily schedule (or a manual run) starts ChurnShield.
+**Step 1 — Run starts.** The daily schedule (or a manual run) starts RADAR.
 
 **Step 2 — Data combined.** Customer and ticket data are read and combined.
 
@@ -397,4 +397,4 @@ The retention officer is the decision-maker for customer contact and offers.
 - A complete audit trail of retention decisions.
 - Freedom to use the provider's own churn model.
 
-**Expected Outcome:** ChurnShield helps broadband providers intervene earlier, resolve service issues faster for valuable customers, and protect recurring revenue, with people making every retention decision.
+**Expected Outcome:** RADAR helps broadband providers intervene earlier, resolve service issues faster for valuable customers, and protect recurring revenue, with people making every retention decision.
